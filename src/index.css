@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  color: #fff;
+  background: radial-gradient(
+    circle,
+    rgba(218, 218, 217, 1) 0%,
+    rgba(48, 49, 51, 1) 100%
+  );
+}
+
+.header {
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: 1rem;
+  display: inline-block;
+  color: #595e9b;
+  margin-left: 10px;
+}
+
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15rem;
+}
+.content-title {
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.content-description {
+  font-weight: 400;
+  font-size: 20px;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.form {
+  display: flex;
+  text-decoration: none;
+  column-gap: 5px;
+  margin-top: 50px;
+}
+.form-input {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  width: 500px;
+}
+.form-button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #595e9b;
+  font-size: 15px;
+}
+.download-btn {
+  margin-top: 20px;
+  color: #595e9b;
+  font-size: 20px;
+}
+@media only screen and (max-width: 800px) {
+  .content {
+    margin-top: 7rem;
+  }
+  .form-input {
+    width: 250px;
+  }
+}
